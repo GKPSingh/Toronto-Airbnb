@@ -35,3 +35,14 @@ The dataset that I am using for this project is available on <a href="http://ins
 As per the information available on <a href="http://insideairbnb.com/get-the-data.html">Inside Airbnb</a> the dataset was last scraped on April 9, 2021 and contains information for all 23524 listings for Toronto on Airbnb website on that day.
 
 <img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/airbnb-toronto-data.png" height=600px width=900px>
+
+## Approach
+1. Apply data wrangling(cleaning), exploratory data analysis, inferential statistics on the dataset.
+2. For modelling, apply:
+  1. Linear Regression
+  2. Ridge Regression
+  3. Lasso Regression
+  4. K-Nearest Neighbors
+  5. Random Forest
+
+This is going to be a supervised machine learning project.

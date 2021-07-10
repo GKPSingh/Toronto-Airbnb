@@ -39,10 +39,11 @@ As per the information available on <a href="http://insideairbnb.com/get-the-dat
 ## Approach
 1. Apply data wrangling(cleaning), exploratory data analysis, inferential statistics on the dataset.
 2. For modelling, apply:
-  1. Linear Regression
-  2. Ridge Regression
-  3. Lasso Regression
-  4. K-Nearest Neighbors
-  5. Random Forest
+
+    1. Linear Regression
+    2. Ridge Regression
+    3. Lasso Regression
+    4. K-Nearest Neighbors
+    5. Random Forest
 
 This is going to be a supervised machine learning project.

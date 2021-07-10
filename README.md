@@ -28,10 +28,10 @@ If the listing price is high, then chances of listings getting booked will go do
 When guests are on Airbnb they do not have any means of knowing if the price that the hosts are asking for is reasonable for given features or not. This project will help guests to find real value for their money in the Airbnb marketplace.
 
 ## Dataset
-<img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/airbnb-toronto-map.png" height=700px width=900px>
+<img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/airbnb-toronto-map.png" height=600px width=900px>
 
 The dataset that I am using for this project is available on <a href="http://insideairbnb.com/get-the-data.html">Inside Airbnb</a> for <a href="http://insideairbnb.com/toronto/">Toronto</a>. <a href="http://insideairbnb.com/get-the-data.html">Inside Airbnb</a> is an independent, non-commercial set of tools and data that allows to explore how airbnb is really being used in cities around the world.
 
 As per the information available on <a href="http://insideairbnb.com/get-the-data.html">Inside Airbnb</a> the dataset was last scraped on April 9, 2021 and contains information for all 23524 listings for Toronto on Airbnb website on that day.
 
-<img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/airbnb-toronto-data.png" height=700px width=900px>
+<img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/airbnb-toronto-data.png" height=600px width=900px>

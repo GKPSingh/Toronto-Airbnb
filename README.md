@@ -52,11 +52,19 @@ This will be a supervised machine learning project.
 
 
 
-
-
-
-
-
+## Exploratory Data Analysis
+* Correlation between an independent and a dependent variable
+```
+accommodates, bedrooms, beds, bathrooms_text do correlate with price
+```
+* About 70% of the listings have single bedrooms and about 53% of the listings have single bed only.
+* About 52% listings can accommodate 2 or less guests.
+* About 50% listings have 2 bathrooms.
+* About 18% listings are priced below or equal to 50 dollars, more than 55% of the listings are priced below 100 dollars and only 57 listings are priced at 1000 dollar or more.
+* Most of the listings Entire home/apt are highest on the listings followed by private rooms. Hotel rooms as expected are least listings on Airbnb.
+* Listing prices are affected by type of listings.
+    * Prices are highest for Entire home/apt followed by hotel rooms price and private rooms. As expected, shared room are least priced.
+* Listing prices are affected by number of guests accommodated in the listing, bedrooms, beds and bathrooms.
 
 ## Modeling
 With insights based on exploratory data analysis (EDA), I started to train predictive models.

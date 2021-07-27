@@ -66,7 +66,7 @@ During exploratory data analysis, following three questions were asked:
   1. Does neighborhood affect listing price?
   2. Does property type affect listing price?
   3. How price varies with bedrooms, beds, people accommodated and bathrooms?
-
+### Initial Findings
 * Correlation between an independent and a dependent variable
     ```
     accommodates, bedrooms, beds, bathrooms_text do correlate with price

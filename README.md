@@ -54,9 +54,9 @@ This will be a supervised machine learning project.
 
 ## Exploratory Data Analysis
 * Correlation between an independent and a dependent variable
-```
-accommodates, bedrooms, beds, bathrooms_text do correlate with price
-```
+    ```
+    accommodates, bedrooms, beds, bathrooms_text do correlate with price
+    ```
 * About 70% of the listings have single bedrooms and about 53% of the listings have single bed only.
 * About 52% listings can accommodate 2 or less guests.
 * About 50% listings have 2 bathrooms.

@@ -67,10 +67,10 @@ I tried five different models:
   * Loss function = Ordinary least squares (OLS), which is sum of squares of residuals.
 2. Ridge Regression (L2 regularization)
   * Same as Linear Regression but penalize large coefficients by L2 regularization:
-  <img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/ridge.png" height=100px width=600px>
+    <img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/ridge.png" height=100px width=600px>
 3. Lasso Regression (L1 regularization)
   * Same as Linear Regression but penalize large coefficients by L1 regularization:
-  <img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/lasso.png" height=100px width=600px>
+    <img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/lasso.png" height=100px width=600px>
 4. K-Nearest Neighbors
   * Predict the label of a data point by
         * Looking at the ‘k’ closest labeled data points

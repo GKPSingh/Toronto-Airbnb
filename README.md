@@ -46,4 +46,62 @@ As per the information available on <a href="http://insideairbnb.com/get-the-dat
     4. K-Nearest Neighbors
     5. Random Forest
 
-This is going to be a supervised machine learning project.
+This will be a supervised machine learning project.
+
+## Data Wrangling
+
+
+
+
+
+
+
+
+
+## Modeling
+With insights based on exploratory data analysis (EDA), I started to train predictive models.
+I checked the distribution of the target, which is price & confirmed that taking log (using log_price column) can make it distribute more normally & skew is much improved.
+I tried five different models:
+1. Linear Regression
+  * Predict the label of a data point by a linear function
+  * Loss function = Ordinary least squares (OLS), which is sum of squares of residuals.
+2. Ridge Regression (L2 regularization)
+  * Same as Linear Regression but penalize large coefficients by L2 regularization:
+  <img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/ridge.png" height=60px width=300px>
+3. Lasso Regression (L1 regularization)
+  * Same as Linear Regression but penalize large coefficients by L1 regularization:
+  <img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/lasso.png" height=60px width=300px>
+4. K-Nearest Neighbors
+  * Predict the label of a data point by 
+        * Looking at the ‘k’ closest labeled data points
+        * Taking a majority vote
+5. Random Forest
+  * Predict the label of a data point by ensembling decision trees, which correct for decision trees' habit of overfitting.
+
+I trained the above models with four features:
+  * Accommodates
+  * Bathrooms_text
+  * Bedrooms
+  * Beds
+
+Test size of Train-test-split is set to 20%. We chose Root-Mean-Squared-Error (RMSE) as our scoring metric.
+
+## Summary
+1. I tried 5 different models on Airbnb listing price prediction
+  * Linear Regression
+  * Ridge Regression
+  * Lasso Regression
+  * K-Nearest Neighbors
+  * Random Forest
+2. Lasso Regression has the best Root Mean Square Error (RMSE) when Price column is used.
+3. RandomForest has the best Root Mean Square Error (RMSE) when log_Price column is used.
+4. Linear regression models did not perform well because there are less data points with price above dollar 200 and looks like they have a different linear relationship. 50% listings are below dollar 99.
+5. RSME can be improved further by fine tuning the hyperparameters.
+
+## Future
+* Apply NLP on Airbnb descriptions and reviews for better listing price prediction.
+* Apply models on other cities or training models on other cities.
+* Apply piecewise linear regression.
+* Apply ensemble models like Gradient Boosting
+* Hyperparameters can be further fine tuned to get better results.
+* More data clean up can be done for even better results.

@@ -116,7 +116,7 @@ Test size of Train-test-split is set to 20%. We chose Root-Mean-Squared-Error (R
     * Lasso Regression
     * K-Nearest Neighbors
     * Random Forest
-2. Lasso Regression has the best Root Mean Square Error (RMSE) when Price column is used.
+2. RandomForest has the best Root Mean Square Error (RMSE) when Price column is used.
 3. RandomForest has the best Root Mean Square Error (RMSE) when log_Price column is used.
 4. Linear regression models did not perform well because there are less data points with price above dollar 200 and looks like they have a different linear relationship. 50% listings are below dollar 99.
 5. RSME can be improved further by fine tuning the hyperparameters.

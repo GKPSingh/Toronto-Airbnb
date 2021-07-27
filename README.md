@@ -85,20 +85,20 @@ With insights based on exploratory data analysis (EDA), I started to train predi
 I checked the distribution of the target, which is price & confirmed that taking log (using log_price column) can make it distribute more normally & skew is much improved.
 I tried five different models:
 1. Linear Regression
-  * Predict the label of a data point by a linear function
-  * Loss function = Ordinary least squares (OLS), which is sum of squares of residuals.
+    * Predict the label of a data point by a linear function
+    * Loss function = Ordinary least squares (OLS), which is sum of squares of residuals.
 2. Ridge Regression (L2 regularization)
-  * Same as Linear Regression but penalize large coefficients by L2 regularization:
+    * Same as Linear Regression but penalize large coefficients by L2 regularization:
     <img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/ridge.png" height=100px width=600px>
 3. Lasso Regression (L1 regularization)
-  * Same as Linear Regression but penalize large coefficients by L1 regularization:
+    * Same as Linear Regression but penalize large coefficients by L1 regularization:
     <img src="https://github.com/GKPSingh/Toronto-Airbnb/blob/main/images/lasso.png" height=100px width=600px>
 4. K-Nearest Neighbors
-  * Predict the label of a data point by
+    * Predict the label of a data point by
         * Looking at the ‘k’ closest labeled data points
         * Taking a majority vote
 5. Random Forest
-  * Predict the label of a data point by ensembling decision trees, which correct for decision trees' habit of overfitting.
+    * Predict the label of a data point by ensembling decision trees, which correct for decision trees' habit of overfitting.
 
 I trained the above models with four features:
   * Accommodates
@@ -110,11 +110,11 @@ Test size of Train-test-split is set to 20%. We chose Root-Mean-Squared-Error (R
 
 ## Summary
 1. I tried 5 different models on Airbnb listing price prediction
-  * Linear Regression
-  * Ridge Regression
-  * Lasso Regression
-  * K-Nearest Neighbors
-  * Random Forest
+    * Linear Regression
+    * Ridge Regression
+    * Lasso Regression
+    * K-Nearest Neighbors
+    * Random Forest
 2. Lasso Regression has the best Root Mean Square Error (RMSE) when Price column is used.
 3. RandomForest has the best Root Mean Square Error (RMSE) when log_Price column is used.
 4. Linear regression models did not perform well because there are less data points with price above dollar 200 and looks like they have a different linear relationship. 50% listings are below dollar 99.

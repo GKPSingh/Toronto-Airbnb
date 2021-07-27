@@ -63,8 +63,9 @@ Some columns contained mostly ‘None’ or ‘NaN’ values and therefore were 
 
 ## Exploratory Data Analysis
 During exploratory data analysis, following three questions were asked:
-  1. How price varies with bedrooms, beds, people accommodated and bathrooms?
-  2.
+  1. Does neighborhood affect listing price?
+  2. Does property type affect listing price?
+  3. How price varies with bedrooms, beds, people accommodated and bathrooms?
 
 * Correlation between an independent and a dependent variable
     ```

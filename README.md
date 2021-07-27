@@ -75,6 +75,7 @@ During exploratory data analysis, following three questions were asked:
 * About 52% listings can accommodate 2 or less guests.
 * About 50% listings have 2 bathrooms.
 * About 18% listings are priced below or equal to 50 dollars, more than 55% of the listings are priced below 100 dollars and only 57 listings are priced at 1000 dollar or more.
+* * Neighborhoods with most listings also have high priced listings.
 * Most of the listings Entire home/apt are highest on the listings followed by private rooms. Hotel rooms as expected are least listings on Airbnb.
 * Listing prices are affected by type of listings.
     * Prices are highest for Entire home/apt followed by hotel rooms price and private rooms. As expected, shared room are least priced.

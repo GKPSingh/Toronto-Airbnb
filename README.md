@@ -49,10 +49,23 @@ As per the information available on <a href="http://insideairbnb.com/get-the-dat
 This will be a supervised machine learning project.
 
 ## Data Wrangling
-
-
+First step after loading the data is Data Wrangling. It involves looking at the data, removing outliers, taking care of missing data and null values, converting data into a format that can be analyzed and studied.
+* The original dataset contained 15542 Airbnb listings and 74 features but I dropped many of those.
+* Some of the features, like the host description or reviews are free text variables. To include that data, I would have to perform Natural Language processing operations and at present it is out of the scope of this project. So those features were dropped.
+* Several features only contained one category, so they were dropped too.
+Some columns contained mostly ‘None’ or ‘NaN’ values and therefore were dropped.
+* Data in money columns was stored as string, so I fixed those data types and converted those to floats.
+* Categorical data was converted to numeric type.
+* Biggest challenge was the amenities column. It had a lot of useful information but extracting that info was not easy. Given the time constraint for this project, I had to remove amenities column.
+* I did draw various plots to see the relationships between various features and price of the listing.
+* I also draw graphs to visualize price distribution for these listings.
+* After performing all these operations I saved the clean data into a separate .csv file. This file will be loaded in the next phase (EDA phase) and data will be studied further.
 
 ## Exploratory Data Analysis
+During exploratory data analysis, following three questions were asked:
+  1. How price varies with bedrooms, beds, people accommodated and bathrooms?
+  2.
+
 * Correlation between an independent and a dependent variable
     ```
     accommodates, bedrooms, beds, bathrooms_text do correlate with price
